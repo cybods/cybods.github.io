@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+.font-primary {
+    font-family: 'Montserrat', sans-serif;
+}
+.font-secondary {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ===================================
+    General
+====================================== */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #666666;
+    padding: 0;
+    margin: 0;
+    line-height: 25px;
+    overflow-x: hidden;
+}
+
+section, .section-padding {position: relative; padding: 7.5rem 0; overflow: hidden;}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1;
+}
+h1 {
+    font-size: 72px;
+}
+h2 {
+    font-size: 3rem;
+}
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: #535353;
+}
